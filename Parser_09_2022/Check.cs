@@ -23,5 +23,6 @@ namespace Parser_09_2022
         public string LS { get; set; }
         public string UslugaName { get; set; }
         public string Price { get; set; }
+        public bool PaymentStatus { get; set; }
     }
 }
