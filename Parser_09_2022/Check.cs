@@ -22,8 +22,8 @@ namespace Parser_09_2022
         public string FP { get; set; }
         public string LS { get; set; }
         public string UslugaName { get; set; }
-        public string Price { get; set; }
+        public double Price { get; set; }
         public bool PaymentStatus { get; set; }
-        public int PayId { get; set; }
+        public long PayId { get; set; }
     }
 }
